@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../Components/Navbar";
-import Sidebar from "../Components/sidebar";
+import Sidebar from "../Components/Sidebar";
 
 const Layout = ({ children }) => {
   const [isDesktop, setIsDesktop] = useState(window.innerWidth > 1000);
