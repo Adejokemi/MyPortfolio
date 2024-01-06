@@ -49,11 +49,8 @@ const Hero = () => {
           </p>
         </div>
         <Button>
-          <a href={Logo} download>
             Download CV
-          </a>
         </Button>
-
         <div className="mt-14">
           <h2 className="text-2xl tracking-wide mb-2">
             <span className="font-bold">Connect</span> with Me
