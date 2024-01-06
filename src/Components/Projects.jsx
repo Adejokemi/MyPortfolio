@@ -7,7 +7,7 @@ import Laundry from "../assets/Laundry.png";
 import hotel from "../assets/hotel.png";
 import omnifood from "../assets/omnifood.png";
 import Mpos from "../assets/Mpos.png";
-import Medease from "../assets/MedEase.png";
+import Medease from "../assets/Medease.png";
 import nbc from "../assets/nbc.png";
 
 const Projects = () => {
