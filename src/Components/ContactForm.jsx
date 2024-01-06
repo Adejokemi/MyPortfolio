@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./button";
+import CtaButton from "./CtaButton";
 
 const ContactForm = () => {
   return (
@@ -46,8 +46,7 @@ const ContactForm = () => {
             placeholder=" "
           ></textarea>
         </div>
-
-        <Button>S E N D</Button>
+        <CtaButton>S E N D</CtaButton>
       </form>
     </div>
   );

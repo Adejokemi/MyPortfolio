@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
-import Button from "./Button";
+import CtaButton from "./CtaButton";
 
 const Hero = () => {
 
@@ -47,9 +47,7 @@ const Hero = () => {
             of web development trends and technologies.
           </p>
         </div>
-        <Button onClick={""}>
-            Download CV
-        </Button>
+      <CtaButton>Download Cv</CtaButton>
         <div className="mt-14">
           <h2 className="text-2xl tracking-wide mb-2">
             <span className="font-bold">Connect</span> with Me
