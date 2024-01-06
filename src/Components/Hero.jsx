@@ -47,7 +47,7 @@ const Hero = () => {
             of web development trends and technologies.
           </p>
         </div>
-        <Button>
+        <Button onClick={""}>
             Download CV
         </Button>
         <div className="mt-14">
