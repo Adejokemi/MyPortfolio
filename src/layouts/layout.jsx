@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
       {isDesktop ? (
         <div className="flex ">
           <div className="w-[300px] text-white">
-            <Sidebar />
+            <Sidebar/>
           </div>
           <div className="w-[calc(100%-300px)] bg-slate-300">{children}</div>
         </div>
