@@ -2,11 +2,11 @@ import React from "react";
 import ProjectCard from "./ProjectsCard";
 import Sync from "../assets/Sync.png";
 import Natours from "../assets/Natours.png";
-import Sync23 from "../assets/sync23.png";
-import Laundry from "../assets/laundry.png";
+import Sync23 from "../assets/Sync23.png";
+import Laundry from "../assets/Laundry.png";
 import hotel from "../assets/hotel.png";
-import Omnifood from "../assets/omnifood.png";
-import mpos from "../assets/mpos.png";
+import omnifood from "../assets/omnifood.png";
+import Mpos from "../assets/Mpos.png";
 import Medease from "../assets/MedEase.png";
 import nbc from "../assets/nbc.png";
 
@@ -28,7 +28,7 @@ const Projects = () => {
     },
     {
       projectLink: "https://mpos.smarthivetechsolution.com/",
-      imgSrc:  mpos ,
+      imgSrc:  Mpos ,
       projectName: "Mpos",
       projectDescription: "A Buisness Management Software",
       toolsUsed: "React.js, Sass/Scss, Firebase",
@@ -70,7 +70,7 @@ const Projects = () => {
     },
     {
       projectLink: "https://omnifood-jonas-process.netlify.app/",
-      imgSrc:  Omnifood ,
+      imgSrc:  omnifood ,
       projectName: "OmniFood",
       projectDescription: "An AI-powered food delivery service",
       toolsUsed: "Html, CSS, Javascript, Netlify",
