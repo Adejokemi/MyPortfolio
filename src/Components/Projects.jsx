@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectsCard";
-import Sync from "../assets/sync.png";
+import sync from "../assets/sync.png";
 import Natours from "../assets/Natours.png";
 import Sync23 from "../assets/sync23.png";
 import Laundry from "../assets/laundry.png";
@@ -14,7 +14,7 @@ const Projects = () => {
   const projects = [
     {
       projectLink: "https://sync-frontends.vercel.app/",
-      imgSrc: Sync,
+      imgSrc: sync,
       projectName: "Sync",
       projectDescription: "A Church Management Software",
       toolsUsed: "React.js, TailwindCss, laravel, Vercel",
