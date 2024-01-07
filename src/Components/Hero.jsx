@@ -10,8 +10,8 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex justify-center items-center pb-16 lg:pb-0">
-      <div className="w-full h-screen  p-8 lg:p-16">
+    <div className="flex justify-center items-center">
+      <div className="w-full  p-6 lg:p-16">
         <h2 className="font-bold text-3xl lg:text-6xl text-gray-900">
           SHERIFAT<span className="text-pink-600"> OMITOGUN</span>
         </h2>
