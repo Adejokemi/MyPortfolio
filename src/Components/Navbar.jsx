@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import cv from "../assets/cv.jpg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,7 +40,7 @@ const Navbar = () => {
       <div className="container mx-auto py-4 px-3 flex justify-between items-center">
         <div className="flex items-center gap-72">
           <img
-            src="/src/assets/cv.jpg"
+            src={cv}
             alt="Logo"
             className="w-8 rounded-full h-8"
           />
