@@ -8,7 +8,7 @@ const Contact = () => {
       <div className='lg:col-span-2'>
         <ContactForm/>
       </div>
-      <div className='lg:col-span-1'> 
+      <div className='lg:col-span-1 lg:flex lg:justify-center lg:items-center'> 
         <ContactCard/>
       </div>
     </div>
