@@ -41,7 +41,7 @@ const Hero = () => {
             am passionate about creating visually appealing and user-friendly
             websites that deliver exceptional user experiences. With a strong
             foundation in HTML, CSS (Sass, Tailwind, Bootstrap), and JavaScript
-            (React, Next.js), I enjoy translating design concepts into fully
+            (React, Next.JS), I enjoy translating design concepts into fully
             functional and responsive interfaces. Constantly seeking to expand
             my knowledge and skills, I am committed to staying at the forefront
             of web development trends and technologies.
