@@ -26,7 +26,7 @@ const ProjectCard = ({
             <p className="text-sm">{projectDescription}</p>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 bg-teal-950 text-white p-5">
+        <div className="absolute  bottom-0 left-0 right-0 bg-teal-950 text-white p-5">
           <p className="text-sm font-bold">
             Built with: <span className="font-normal"> {toolsUsed}</span>
           </p>
