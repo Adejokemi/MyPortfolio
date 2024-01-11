@@ -4,14 +4,15 @@ const SoftSkills = () => {
   return (
     <div className="mt-8">
       <h2 className="text-2xl font-bold mb-5 tracking-wide text-center ml-[-95px]">Soft Skills</h2>
-      <div className="flex items-center justify-center">
+      <div className="flex lg:items-center lg:justify-center px-3 lg:px-0">
         <div className="space-y-6 border-l-2 border-dashed">
+          <SkillItem title="Adaptability" />
           <SkillItem title="Communication" />
           <SkillItem title="Collaboration" />
+          <SkillItem title="Critical Thinking" />
+          <SkillItem title="Teamwork" />
+          <SkillItem title="Problem Solving" />
           <SkillItem title="Time Management" />
-          <SkillItem title="Adaptability" />
-          <SkillItem title="Adaptability" />
-          <SkillItem title="Adaptability" />
         </div>
       </div>
     </div>
