@@ -8,7 +8,7 @@ const ContactForm = () => {
       <p className="text-sm text-gray-700 mb-6">
         I am always happy to hear from you
       </p>
-      <form className=" ">
+      <form form name="contact" method="POST" data-netlify="true">
         <div className="mb-10">
           <label htmlFor="name" className="block mb-2 text-gray-800">
             Name

@@ -9,7 +9,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div className="relative group h-[40vh]">
-      <a
+      <az
         href={projectLink}
         target="_blank"
         rel="noopener noreferrer"
@@ -31,7 +31,7 @@ const ProjectCard = ({
             Built with: <span className="font-normal"> {toolsUsed}</span>
           </p>
         </div>
-      </a>
+      </az>
     </div>
   );
 };

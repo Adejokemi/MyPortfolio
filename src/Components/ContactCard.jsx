@@ -1,5 +1,5 @@
 import React from "react";
-import { FaEnvelope, FaMapMarkerAlt, FaMarker, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 
 const ContactCard = () => {
   return (
